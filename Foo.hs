@@ -1,7 +1,6 @@
 module Foo where
 
-import   Prelude (sum,
-    concat)
-    
+import           Prelude (concat, sum)
+
 foo :: IO String
 foo = return "Restyle me"
