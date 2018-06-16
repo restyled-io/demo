@@ -1,0 +1,7 @@
+---
+- shfmt:
+    arguments:
+      - -w
+      - -i
+      - 2
+      - -ci
