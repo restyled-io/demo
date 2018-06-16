@@ -3,5 +3,5 @@
     arguments:
       - -w
       - -i
-      - 2
+      - "2"
       - -ci
