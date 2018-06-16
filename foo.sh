@@ -1,3 +1,3 @@
 if this; then
-    that
-  fi
+  that
+fi
