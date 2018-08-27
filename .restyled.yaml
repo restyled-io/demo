@@ -1,0 +1,9 @@
+---
+- shfmt:
+    includes:
+      - "nope.sh"
+    argument:
+      - -w
+      - -i
+      - "2"
+      - -ci
