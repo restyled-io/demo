@@ -1,0 +1,113 @@
+---
+- astyle:
+    enabled: true
+    include:
+    - astyle/**/*
+- autopep8:
+    enabled: true
+    include:
+    - autopep8/**/*
+- black:
+    enabled: true
+    include:
+    - black/**/*
+- brittany:
+    enabled: true
+    include:
+    - brittany/**/*
+- clang-format:
+    enabled: true
+    include:
+    - clang-format/**/*
+- dfmt:
+    enabled: true
+    include:
+    - dfmt/**/*
+- elm-format:
+    enabled: true
+    include:
+    - elm-format/**/*
+- google-java-format:
+    enabled: true
+    include:
+    - google-java-format/**/*
+- hindent:
+    enabled: true
+    include:
+    - hindent/**/*
+- hlint:
+    enabled: true
+    include:
+    - hlint/**/*
+- jdt:
+    enabled: true
+    include:
+    - jdt/**/*
+- jq:
+    enabled: true
+    include:
+    - jq/**/*
+- ormolu:
+    enabled: true
+    include:
+    - ormolu/**/*
+- pg_format:
+    enabled: true
+    include:
+    - pg_format/**/*
+- php-cs-fixer:
+    enabled: true
+    include:
+    - php-cs-fixer/**/*
+- prettier-markdown:
+    enabled: true
+    include:
+    - prettier-markdown/**/*
+- prettier-ruby:
+    enabled: true
+    include:
+    - prettier-ruby/**/*
+- prettier-yaml:
+    enabled: true
+    include:
+    - prettier-yaml/**/*
+- prettier:
+    enabled: true
+    include:
+    - prettier/**/*
+- reorder-python-imports:
+    enabled: true
+    include:
+    - reorder-python-imports/**/*
+- rubocop:
+    enabled: true
+    include:
+    - rubocop/**/*
+- rustfmt:
+    enabled: true
+    include:
+    - rustfmt/**/*
+- shellharden:
+    enabled: true
+    include:
+    - shellharden/**/*
+- shfmt:
+    enabled: true
+    include:
+    - shfmt/**/*
+- stylish-haskell:
+    enabled: true
+    include:
+    - stylish-haskell/**/*
+- terraform:
+    enabled: true
+    include:
+    - terraform/**/*
+- whitespace:
+    enabled: true
+    include:
+    - whitespace/**/*
+- yapf:
+    enabled: true
+    include:
+    - yapf/**/*
