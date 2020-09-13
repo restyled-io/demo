@@ -1,4 +1,6 @@
 ---
+restylers_version: dev
+restylers:
 - astyle:
     enabled: true
     include:
