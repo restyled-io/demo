@@ -121,3 +121,15 @@ restylers:
     enabled: true
     include:
     - stylish-haskell/**/*
+- terraform:
+    enabled: true
+    include:
+    - terraform/**/*
+- whitespace:
+    enabled: true
+    include:
+    - whitespace/**/*
+- yapf:
+    enabled: true
+    include:
+    - yapf/**/*
