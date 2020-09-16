@@ -25,6 +25,10 @@ restylers:
     enabled: true
     include:
     - dfmt/**/*
+- dhall-format:
+    enabled: true
+    include:
+    - dhall-format/**/*
 - dotnet-format:
     enabled: true
     include:
