@@ -45,6 +45,10 @@ restylers:
     enabled: true
     include:
     - gn/**/*
+- gofmt:
+    enabled: true
+    include:
+    - gofmt/**/*
 - google-java-format:
     enabled: true
     include:
