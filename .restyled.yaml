@@ -85,10 +85,6 @@ restylers:
     enabled: true
     include:
     - php-cs-fixer/**/*
-- prettier:
-    enabled: true
-    include:
-    - prettier/**/*
 - prettier-json:
     enabled: true
     include:
@@ -105,6 +101,10 @@ restylers:
     enabled: true
     include:
     - prettier-yaml/**/*
+- prettier:
+    enabled: true
+    include:
+    - prettier/**/*
 - reorder-python-imports:
     enabled: true
     include:
