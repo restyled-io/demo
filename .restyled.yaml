@@ -63,9 +63,6 @@ restylers:
 - include: php-cs-fixer/**/*
   enabled: true
   name: php-cs-fixer
-- include: prettier/**/*
-  enabled: true
-  name: prettier
 - include: prettier-json/**/*
   enabled: true
   name: prettier-json
@@ -78,6 +75,9 @@ restylers:
 - include: prettier-yaml/**/*
   enabled: true
   name: prettier-yaml
+- include: prettier/**/*
+  enabled: true
+  name: prettier
 - include: reorder-python-imports/**/*
   enabled: true
   name: reorder-python-imports
