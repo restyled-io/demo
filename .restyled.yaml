@@ -1,4 +1,4 @@
-restylers_version: stable
+restylers_version: dev
 restylers:
 - include: astyle/**/*
   enabled: true
