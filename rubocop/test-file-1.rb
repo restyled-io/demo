@@ -1,1 +1,1 @@
-puts x unless x.nil? || x.empty?
+puts x if x.present?
