@@ -1,4 +1,4 @@
-restylers_version: stable
+restylers_version: dev
 restylers:
 - include: astyle/**/*
   enabled: true
@@ -93,6 +93,9 @@ restylers:
 - include: shfmt/**/*
   enabled: true
   name: shfmt
+- include: standardrb/**/*
+  enabled: true
+  name: standardrb
 - include: stylish-haskell/**/*
   enabled: true
   name: stylish-haskell
