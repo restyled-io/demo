@@ -63,21 +63,21 @@ restylers:
 - include: php-cs-fixer/**/*
   enabled: true
   name: php-cs-fixer
+- include: prettier-ruby/**/*
+  enabled: true
+  name: prettier-ruby
+- include: prettier/**/*
+  enabled: true
+  name: prettier
 - include: prettier-json/**/*
   enabled: true
   name: prettier-json
 - include: prettier-markdown/**/*
   enabled: true
   name: prettier-markdown
-- include: prettier-ruby/**/*
-  enabled: true
-  name: prettier-ruby
 - include: prettier-yaml/**/*
   enabled: true
   name: prettier-yaml
-- include: prettier/**/*
-  enabled: true
-  name: prettier
 - include: reorder-python-imports/**/*
   enabled: true
   name: reorder-python-imports
@@ -102,6 +102,9 @@ restylers:
 - include: terraform/**/*
   enabled: true
   name: terraform
+- include: verible/**/*
+  enabled: true
+  name: verible
 - include: whitespace/**/*
   enabled: true
   name: whitespace
