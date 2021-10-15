@@ -30,6 +30,9 @@ restylers:
 - include: fantomas/**/*
   enabled: true
   name: fantomas
+- include: fourmolu/**/*
+  enabled: true
+  name: fourmolu
 - include: gn/**/*
   enabled: true
   name: gn
