@@ -1,116 +1,116 @@
-restylers_version: dev
 restylers:
-- include: astyle/**/*
-  enabled: true
+- enabled: true
+  include: astyle/**/*
   name: astyle
-- include: autopep8/**/*
-  enabled: true
+- enabled: true
+  include: autopep8/**/*
   name: autopep8
-- include: black/**/*
-  enabled: true
+- enabled: true
+  include: black/**/*
   name: black
-- include: brittany/**/*
-  enabled: true
+- enabled: true
+  include: brittany/**/*
   name: brittany
-- include: clang-format/**/*
-  enabled: true
+- enabled: true
+  include: clang-format/**/*
   name: clang-format
-- include: dfmt/**/*
-  enabled: true
+- enabled: true
+  include: dfmt/**/*
   name: dfmt
-- include: dhall-format/**/*
-  enabled: true
+- enabled: true
+  include: dhall-format/**/*
   name: dhall-format
-- include: dotnet-format/**/*
-  enabled: true
+- enabled: true
+  include: dotnet-format/**/*
   name: dotnet-format
-- include: elm-format/**/*
-  enabled: true
+- enabled: true
+  include: elm-format/**/*
   name: elm-format
-- include: fantomas/**/*
-  enabled: true
+- enabled: true
+  include: fantomas/**/*
   name: fantomas
-- include: fourmolu/**/*
-  enabled: true
+- enabled: true
+  include: fourmolu/**/*
   name: fourmolu
-- include: gn/**/*
-  enabled: true
+- enabled: true
+  include: gn/**/*
   name: gn
-- include: gofmt/**/*
-  enabled: true
+- enabled: true
+  include: gofmt/**/*
   name: gofmt
-- include: google-java-format/**/*
-  enabled: true
+- enabled: true
+  include: google-java-format/**/*
   name: google-java-format
-- include: hindent/**/*
-  enabled: true
+- enabled: true
+  include: hindent/**/*
   name: hindent
-- include: hlint/**/*
-  enabled: true
+- enabled: true
+  include: hlint/**/*
   name: hlint
-- include: isort/**/*
-  enabled: true
+- enabled: true
+  include: isort/**/*
   name: isort
-- include: jdt/**/*
-  enabled: true
+- enabled: true
+  include: jdt/**/*
   name: jdt
-- include: jq/**/*
-  enabled: true
+- enabled: true
+  include: jq/**/*
   name: jq
-- include: ormolu/**/*
-  enabled: true
+- enabled: true
+  include: ormolu/**/*
   name: ormolu
-- include: pg_format/**/*
-  enabled: true
+- enabled: true
+  include: pg_format/**/*
   name: pg_format
-- include: php-cs-fixer/**/*
-  enabled: true
+- enabled: true
+  include: php-cs-fixer/**/*
   name: php-cs-fixer
-- include: prettier-ruby/**/*
-  enabled: true
+- enabled: true
+  include: prettier-ruby/**/*
   name: prettier-ruby
-- include: prettier/**/*
-  enabled: true
+- enabled: true
+  include: prettier/**/*
   name: prettier
-- include: prettier-json/**/*
-  enabled: true
+- enabled: true
+  include: prettier-json/**/*
   name: prettier-json
-- include: prettier-markdown/**/*
-  enabled: true
+- enabled: true
+  include: prettier-markdown/**/*
   name: prettier-markdown
-- include: prettier-yaml/**/*
-  enabled: true
+- enabled: true
+  include: prettier-yaml/**/*
   name: prettier-yaml
-- include: reorder-python-imports/**/*
-  enabled: true
+- enabled: true
+  include: reorder-python-imports/**/*
   name: reorder-python-imports
-- include: rubocop/**/*
-  enabled: true
+- enabled: true
+  include: rubocop/**/*
   name: rubocop
-- include: rustfmt/**/*
-  enabled: true
+- enabled: true
+  include: rustfmt/**/*
   name: rustfmt
-- include: shellharden/**/*
-  enabled: true
+- enabled: true
+  include: shellharden/**/*
   name: shellharden
-- include: shfmt/**/*
-  enabled: true
+- enabled: true
+  include: shfmt/**/*
   name: shfmt
-- include: standardrb/**/*
-  enabled: true
+- enabled: true
+  include: standardrb/**/*
   name: standardrb
-- include: stylish-haskell/**/*
-  enabled: true
+- enabled: true
+  include: stylish-haskell/**/*
   name: stylish-haskell
-- include: terraform/**/*
-  enabled: true
+- enabled: true
+  include: terraform/**/*
   name: terraform
-- include: verible/**/*
-  enabled: true
+- enabled: true
+  include: verible/**/*
   name: verible
-- include: whitespace/**/*
-  enabled: true
+- enabled: true
+  include: whitespace/**/*
   name: whitespace
-- include: yapf/**/*
-  enabled: true
+- enabled: true
+  include: yapf/**/*
   name: yapf
+restylers_version: stable
