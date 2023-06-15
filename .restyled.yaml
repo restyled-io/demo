@@ -57,6 +57,15 @@ restylers:
   include: jq/**/*
   name: jq
 - enabled: true
+  include: luaformatter/**/*
+  name: luaformatter
+- enabled: true
+  include: nixpkgs-fmt/**/*
+  name: nixpkgs-fmt
+- enabled: true
+  include: npm-groovy-lint/**/*
+  name: npm-groovy-lint
+- enabled: true
   include: ormolu/**/*
   name: ormolu
 - enabled: true
@@ -90,11 +99,17 @@ restylers:
   include: rustfmt/**/*
   name: rustfmt
 - enabled: true
+  include: shellcheck/**/*
+  name: shellcheck
+- enabled: true
   include: shellharden/**/*
   name: shellharden
 - enabled: true
   include: shfmt/**/*
   name: shfmt
+- enabled: true
+  include: sqlformat/**/*
+  name: sqlformat
 - enabled: true
   include: standardrb/**/*
   name: standardrb
@@ -113,4 +128,4 @@ restylers:
 - enabled: true
   include: yapf/**/*
   name: yapf
-restylers_version: stable
+restylers_version: dev
