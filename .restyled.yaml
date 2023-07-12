@@ -128,4 +128,4 @@ restylers:
 - enabled: true
   include: yapf/**/*
   name: yapf
-restylers_version: dev
+restylers_version: stable
