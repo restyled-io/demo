@@ -15,12 +15,6 @@ restylers:
   include: clang-format/**/*
   name: clang-format
 - enabled: true
-  include: cmake-format/**/*
-  name: cmake-format
-- enabled: true
-  include: dart-format/**/*
-  name: dart-format
-- enabled: true
   include: dfmt/**/*
   name: dfmt
 - enabled: true
@@ -72,14 +66,8 @@ restylers:
   include: npm-groovy-lint/**/*
   name: npm-groovy-lint
 - enabled: true
-  include: ocamlformat/**/*
-  name: ocamlformat
-- enabled: true
   include: ormolu/**/*
   name: ormolu
-- enabled: true
-  include: perltidy/**/*
-  name: perltidy
 - enabled: true
   include: pg_format/**/*
   name: pg_format
@@ -102,15 +90,6 @@ restylers:
   include: prettier-yaml/**/*
   name: prettier-yaml
 - enabled: true
-  include: purty/**/*
-  name: purty
-- enabled: true
-  include: pyment/**/*
-  name: pyment
-- enabled: true
-  include: refmt/**/*
-  name: refmt
-- enabled: true
   include: reorder-python-imports/**/*
   name: reorder-python-imports
 - enabled: true
@@ -119,9 +98,6 @@ restylers:
 - enabled: true
   include: rustfmt/**/*
   name: rustfmt
-- enabled: true
-  include: scalafmt/**/*
-  name: scalafmt
 - enabled: true
   include: shellcheck/**/*
   name: shellcheck
@@ -152,4 +128,4 @@ restylers:
 - enabled: true
   include: yapf/**/*
   name: yapf
-restylers_version: dev
+restylers_version: stable
