@@ -12,6 +12,9 @@ restylers:
   include: brittany-test-*
   name: brittany
 - enabled: true
+  include: cabal-fmt-test-*
+  name: cabal-fmt
+- enabled: true
   include: clang-format-test-*
   name: clang-format
 - enabled: true
