@@ -1,5 +1,8 @@
-foo
- :: MonadIO m
- -> Text -> Text
- -> SqlPersistT m ()
- foo = undefined
+foo ::
+    MonadIO m ->
+    Text ->
+    Text ->
+    SqlPersistT
+        m
+        ()
+        foo = undefined
