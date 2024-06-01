@@ -144,6 +144,9 @@ restylers:
   include: stylish-haskell-test-*
   name: stylish-haskell
 - enabled: true
+  include: taplo-test-*
+  name: taplo
+- enabled: true
   include: terraform-test-*
   name: terraform
 - enabled: true

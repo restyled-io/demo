@@ -1,0 +1,6 @@
+var   = true
+list = [
+  'hi',
+    'there'
+  , 'now'
+ ]
