@@ -158,4 +158,4 @@ restylers:
 - enabled: true
   include: yapf-test-*
   name: yapf
-restylers_version: dev
+restylers_version: stable
