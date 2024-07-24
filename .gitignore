@@ -1,0 +1,8 @@
+# php-cs-fixer
+.php-cs-fixer.cache
+
+# astyle
+*.c.orig
+
+# dotnet-format
+obj/Debug/netcoreapp*
