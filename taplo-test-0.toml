@@ -1,6 +1,2 @@
-var   = true
-list = [
-  'hi',
-    'there'
-  , 'now'
- ]
+var = true
+list = ['hi', 'there', 'now']

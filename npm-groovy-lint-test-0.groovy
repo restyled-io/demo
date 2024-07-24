@@ -1,20 +1,20 @@
-def variable = 1;
+def variable = 1
 
 pipeline {
     agent any
-    options{ timestamps() }
-    stages{ stage('') {
+    options { timestamps() }
+    stages { stage('') {
             steps {
-                sh """
-                """
+                sh '''
+                '''
             }
-        }
+    }
 
         stage('Deploy')
         {
             steps {
                 ansiColor('xterm') {
-                    sh """
-                    """
+                    sh '''
+                    '''
                 }
             } } } }
